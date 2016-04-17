@@ -47,7 +47,7 @@ namespace Gaming {
         static const double STARTING_AGENT_ENERGY;
         static const double STARTING_RESOURCE_CAPACITY;
 
-        Game();
+        Game(); //defualt constructor
         Game(unsigned width, unsigned height, bool manual = true); // note: manual population by default
         Game(const Game &another);
         Game &operator=(const Game &other) = delete;

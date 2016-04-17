@@ -1,0 +1,14 @@
+3 Fundmental structures of computing;
+    1) sequential (top-down);
+    2) loop;
+    3) comparisons (branching);
+    4) exceptions
+
+1) Smart pointer
+    std::unique_ptr
+    std::shared_ptr
+    std::weak_ptr
+
+2) Move semantics
+        - contrasts with copy constructor
+   R-value references
